@@ -1,0 +1,58 @@
+# Node / Frontend
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+build/
+frontend/build/
+.env
+.env.local
+frontend/.env
+frontend/.env.local
+frontend/npm-debug.log*
+
+# Python / Backend
+venv/
+.venv/
+backend/venv/
+backend/.venv/
+__pycache__/
+backend/__pycache__/
+backend/*/__pycache__/
+backend/*/*/__pycache__/
+backend/*/*/*/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+backend/.pytest_cache/
+.coverage
+backend/.coverage
+htmlcov/
+backend/htmlcov/
+
+# Local Storage, Uploads & Reports (Preserve .gitkeep only)
+storage/uploads/*
+!storage/uploads/.gitkeep
+storage/reports/*
+!storage/reports/.gitkeep
+backend/storage/uploads/*
+!backend/storage/uploads/.gitkeep
+backend/storage/reports/*
+!backend/storage/reports/.gitkeep
+*.pdf
+*.docx
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+!backend/.env.example
+
+# IDE / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
